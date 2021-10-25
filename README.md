@@ -13,3 +13,11 @@ The evaluation metric I have chosen is area under the curve (AUC) for the receiv
 See notebook for details [icu_risk_assessment.ipynb](https://github.com/Gabriel-Aspen/icu/blob/main/icu_risk_assessment.ipynb)
 
 Data can be found [here](https://www.kaggle.com/c/widsdatathon2020/data)
+
+### Patient clustering with t-distributed stochastic neighbor embedding (t-SNE) and k-means
+Dimesionality reduction performed using comorbity information on patients with one or more comorbidity (AIDS, Diabetes etc.)
+and clustered with k-means. 
+
+![](tsne.png)
+
+See notebook for details [dimensionality_reduction.ipynb](https://github.com/Gabriel-Aspen/icu/blob/main/dimensionality_reduction.ipynb)
