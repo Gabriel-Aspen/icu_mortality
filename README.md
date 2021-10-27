@@ -4,9 +4,9 @@ A risk assessment tool to improve outcomes in the ICU
 In this project I use ensemble learning to predict mortality with open source ICU data. Features include basic demographic information,
 lab values, vital signs and health comorbidities, as well as risk assessment scores from other severtiy-of-disease systems such as APACHE
 
-The model I have selected is XGBoost, 
+I've selected the XGBoost ensemble learning model for its versitility and speed.
 hyperparameter tuning was performed through gridsearch and feature selected was performed through iterative random search.
-The evaluation metric I have chosen is area under the curve (AUC) for the receiving operator characteristic curve.
+The selected evaluation metric is area under the receiving operator characteristic curve (ROC-AUC)
 
 **Training Data AUC: 0.9077**
 
